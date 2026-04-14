@@ -1,0 +1,15 @@
+{
+  "scale": 100,
+  "lon_convertion_factor": 111325,
+  "lat_convertion_factor": 111139,
+  "sample_rate": 16,
+  "n_points": 100,
+  "input_file_path": "original_data/",
+  "output_file_path": "processed_data/",
+  "kafka_broker": "localhost:9092",
+  "topic": "pointcloud",
+  "db_host": "localhost",
+  "database": "vehicle_location_db",
+  "user" : "postgres",
+  "password": "root"
+}
