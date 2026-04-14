@@ -33,12 +33,12 @@ A power bi dashboard that shows driving anomalies per vehicle and a map of traff
 
 ## Known Issues:
 The Kafka consumers can not keep up with the incoming traffic
-had package dependency conflicts if I tried to use flink
-I could make the dashboard nicer
+had package dependency conflicts if I tried to use flink instead
+I could make the dashboard nicer and convert the data to kph instead of mps
 
 ## Coming Soon:
 will get more data
 will change the consumers to flink instead of kafka consumers for true real time 
 will migrate the architecture to AWS MSK and managed apache flink plus a bigger data warehouse
 will try various ml predictions on the data such as predicting traffic and route times
-will learn more about open3d and vl and ego 
+will learn more about open3d and vl and ego to extract more interesting features
