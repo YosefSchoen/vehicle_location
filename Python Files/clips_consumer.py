@@ -71,7 +71,7 @@ def frame_to_hull(vehicle_id: int, frame_id: int) -> List[float]:
     pcd = o3d.geometry.PointCloud()
     pcd.points = o3d.utility.Vector3dVector(points)
 
-    pcd = pcd.voxel_down_sample(voxel_size=10)
+    pcd = pcd.voxel_down_sample(voxel_size=config_data['voxel_size'])
     hull, _ = pcd.compute_convex_hull()
     return np.asarray(hull.vertices).tolist()
 

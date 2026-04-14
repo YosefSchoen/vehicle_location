@@ -4,6 +4,7 @@
   "lat_convertion_factor": 111139,
   "sample_rate": 16,
   "n_points": 100,
+  "voxel_size": 10,
   "input_file_path": "original_data/",
   "output_file_path": "processed_data/",
   "kafka_broker": "localhost:9092",
